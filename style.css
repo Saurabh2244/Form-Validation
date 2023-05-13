@@ -1,0 +1,47 @@
+body{
+    background-color: #3498db;
+display: flex;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+#form-container{
+    background-color: white;
+    text-align: center;
+    padding: 50px;
+    border:4px solid rebeccapurple;
+    border-radius: 15px;
+}
+
+h2{
+    margin: 0px 0px 10px 0px;
+}
+
+input{
+    width: 200px;
+    margin: 10px 0px;
+    padding: 10px;
+    border: 1px solid black;
+   
+}
+
+#submit{
+    background-color:#3498db ;
+    width: 222px;
+    color: white;
+    font-weight: 500;
+    font-size: 22px;
+    border: none;
+    cursor: pointer;
+}
+
+.error{
+    text-align: left;
+    color: red;
+    margin: 0px;
+}
+
+/* Responsive */
+
+/*Already it is Responsive*/
